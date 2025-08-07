@@ -3,6 +3,7 @@ package com.example.miselectros
 import android.os.Bundle
 import android.util.Patterns
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
@@ -24,6 +25,10 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
+        val toolbar: MaterialToolbar = findViewById(R.id.register_toolbar)
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         fullNameLayout = findViewById(R.id.full_name_layout)
         emailLayout = findViewById(R.id.register_email_layout)
         passwordLayout = findViewById(R.id.register_password_layout)
@@ -40,6 +45,11 @@ class RegisterActivity : AppCompatActivity() {
                 // Proceed with account creation logic
             }
         }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        finish()
+        return true
     }
 
     private fun validateInputs(): Boolean {
