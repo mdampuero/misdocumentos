@@ -5,4 +5,14 @@
     <string name="login">Iniciar sesión</string>
     <string name="create_account">Crear cuenta</string>
     <string name="forgot_password">Restablecer contraseña</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="confirm_password">Repetir contraseña</string>
+    <string name="register">Registrar</string>
+    <string name="error_full_name">Ingrese su nombre completo</string>
+    <string name="error_email_required">Ingrese un email</string>
+    <string name="error_invalid_email">Ingrese un email válido</string>
+    <string name="error_password_required">Ingrese una contraseña</string>
+    <string name="error_invalid_password">La contraseña debe tener al menos 8 caracteres, incluir mayúsculas, minúsculas y números</string>
+    <string name="error_confirm_password_required">Repita la contraseña</string>
+    <string name="error_passwords_not_match">Las contraseñas no coinciden</string>
 </resources>
