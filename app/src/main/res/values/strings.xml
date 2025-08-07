@@ -15,4 +15,7 @@
     <string name="error_invalid_password">La contraseña debe tener al menos 8 caracteres, incluir mayúsculas, minúsculas y números</string>
     <string name="error_confirm_password_required">Repita la contraseña</string>
     <string name="error_passwords_not_match">Las contraseñas no coinciden</string>
+    <string name="verification_code">Código de verificación</string>
+    <string name="validate_code">Validar código</string>
+    <string name="error_invalid_code">Ingrese un código de 6 dígitos</string>
 </resources>

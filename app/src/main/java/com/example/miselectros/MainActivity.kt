@@ -22,5 +22,9 @@ class MainActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.create_account).setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
+
+        findViewById<TextView>(R.id.forgot_password).setOnClickListener {
+            startActivity(Intent(this, ResetPasswordActivity::class.java))
+        }
     }
 }
