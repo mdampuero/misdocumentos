@@ -38,7 +38,8 @@ class MainActivity : AppCompatActivity() {
 
         loginButton.setOnClickListener {
             if (validateInputs()) {
-                // Proceed with login logic
+                startActivity(Intent(this, HomeActivity::class.java))
+                finish()
             }
         }
 
