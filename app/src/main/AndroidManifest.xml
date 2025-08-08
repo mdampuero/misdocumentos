@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MisElectros">
+        <activity android:name=".CreateDocumentActivity" android:exported="false"/>
+        <activity android:name=".DocumentsActivity" android:exported="false"/>
         <activity android:name=".HomeActivity" android:exported="false"/>
         <activity android:name=".RegisterActivity" android:exported="false"/>
         <activity android:name=".ResetPasswordActivity" android:exported="false"/>
