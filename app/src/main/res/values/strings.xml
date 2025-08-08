@@ -24,4 +24,21 @@
     <string name="nav_logout">Salir</string>
     <string name="navigation_drawer_open">Abrir navegación</string>
     <string name="navigation_drawer_close">Cerrar navegación</string>
+    <string name="nav_my_documents">Mis documentos</string>
+    <string name="title_documents">Mis documentos</string>
+    <string name="step1">Paso 1</string>
+    <string name="step2">Paso 2</string>
+    <string name="next">Siguiente</string>
+    <string name="camera_action">Tomar foto</string>
+    <string name="choose_file_action">Seleccionar archivo</string>
+    <string name="save">Guardar</string>
+    <string name="delete_confirmation">¿Desea eliminar este documento?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="document_name">Nombre</string>
+    <string name="document_type">Tipo</string>
+    <string name="document_date">Fecha</string>
+    <string name="document_store">Nombre de la tienda</string>
+    <string name="document_description">Descripción</string>
+    <string name="required">Requerido</string>
 </resources>

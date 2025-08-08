@@ -1,5 +1,6 @@
 package com.example.miselectros
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Toast
@@ -41,6 +42,9 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
+            R.id.nav_my_documents -> {
+                startActivity(Intent(this, DocumentsActivity::class.java))
+            }
             R.id.nav_modify_data -> {
                 Toast.makeText(this, R.string.nav_modify_data, Toast.LENGTH_SHORT).show()
             }
